@@ -15,7 +15,7 @@ var_dump($numero1 == $numero2); // Evalua que sean iguales independientemente de
 echo "<br>";
 var_dump($numero1 === $numero2); // Evalua que sean iguales y el tipo de dato
 echo "<br>";
-//imprime -1 si es menor 0 si es igual y 1 si es mayor
+//imprime -1 si es menor, 0 si es igual y 1 si es mayor
 var_dump($numero1 <=> $numero2); 
 
 include 'includes/footer.php';

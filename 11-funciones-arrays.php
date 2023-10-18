@@ -23,16 +23,18 @@ echo "<Pre>";
     var_dump($numeros);
 echo "</Pre>";
 // Ordenar segun el tipo
-asort($cliente); // Ordena por orden alfabetico en base a los valores
+ // Ordena por orden alfabetico en base a los valores
+asort($cliente);
 echo "<Pre>";
     var_dump($cliente);
 echo "</Pre>";
-ksort($cliente); // Ordena por orden alfabetico en base a las llaves
+// Ordena por orden alfabetico en base a las llaves
+ksort($cliente); 
 echo "<Pre>";
     var_dump($cliente);
 echo "</Pre>";
-krsort($cliente); // Ordena por orden alfabetico en base a las llaves pero de manera inversa
-echo "<Pre>";
+// Ordena por orden alfabetico en base a las llaves pero de manera inversa
+krsort($cliente); echo "<Pre>";
     var_dump($cliente);
 echo "</Pre>";
 include 'includes/footer.php';

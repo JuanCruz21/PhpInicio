@@ -21,5 +21,35 @@ for($a=1; $a < 100;$a++){
         echo "BUZZ". "<br>";
     }
 }
+$variantes = ["Negro","Blanco","Amarillo"];
+foreach($variantes as $variante){
+    echo $variante . "<br>";
+
+}
+
+$cliente = [
+    'Nombre'=>'Juan',
+    'Saldo' => 2304,
+    'informacion' => [
+        'Tipo' => 'Premium',
+        'Disponible'=>100
+    ]
+];
+// For each iterando un arreglo
+foreach($cliente as $client){
+    if(gettype($client)!="array"){
+        echo $client . "<br>";
+    }
+}
+
+foreach($cliente['informacion'] as $info){
+    echo $info . "<br>";
+}
+// For each iterando un arreglo pero con llaves
+foreach($cliente as $key => $client){
+    if(gettype($client)!="array"){
+        echo $key ." = ". $client . "<br>";
+    }
+}
 
 include 'includes/footer.php';

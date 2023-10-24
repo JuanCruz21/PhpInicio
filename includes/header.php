@@ -9,8 +9,6 @@
 </head>
 
 <body>
-
-
     <div class="contenido">
         <h1>Desarrollo Web Completo</h1>
         <div class="resultado">
